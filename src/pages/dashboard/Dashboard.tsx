@@ -12,7 +12,7 @@ export const Dashboard = () => {
 
       <button onClick={() => counterRef.current.counter++}>Somar</button>
       <button onClick={() => console.log(counterRef.current.counter)}>
-        Somar
+        Log
       </button>
 
       <Link to="/entrar">Login</Link>
