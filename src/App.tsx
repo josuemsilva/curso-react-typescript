@@ -1,12 +1,14 @@
-import { BrowserRouter } from 'react-router-dom';
+import { BrowserRouter } from "react-router-dom";
 
+import { UsuarioLogadoProvider } from "./shared/contexts";
 import { AppRoutes } from "./routes";
 
 export const App = () => {
-
   return (
     <BrowserRouter>
-      <AppRoutes/>
+      <UsuarioLogadoProvider>
+        <AppRoutes />
+      </UsuarioLogadoProvider>
     </BrowserRouter>
   );
 };
