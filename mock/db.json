@@ -6,13 +6,8 @@
       "isCompleted": false
     },
     {
-      "id": 2,
-      "title": "Tarefa 2",
-      "isCompleted": false
-    },
-    {
       "title": "Tarefa 3",
-      "isCompleted": true,
+      "isCompleted": false,
       "id": 3
     },
     {
