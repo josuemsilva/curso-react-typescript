@@ -12,8 +12,13 @@
     },
     {
       "title": "Tarefa 3",
-      "isCompleted": false,
+      "isCompleted": true,
       "id": 3
+    },
+    {
+      "title": "tarefa 4",
+      "isCompleted": false,
+      "id": 4
     }
   ]
 }

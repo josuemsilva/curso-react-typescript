@@ -37,7 +37,7 @@ const create = async (
 };
 
 const updateById = async (
-  id: string,
+  id: number,
   dataToUpdate: ITarefa
 ): Promise<ITarefa[] | ApiException> => {
   try {
@@ -47,7 +47,7 @@ const updateById = async (
     return new ApiException(error.message || "Erro ao atualizar registro.");
   }
 };
-const deleteById = async (id: string): Promise<undefined | ApiException> => {
+const deleteById = async (id: number): Promise<undefined | ApiException> => {
   try {
     await Api().get(`/tarefas/${id}`);
     return undefined;
